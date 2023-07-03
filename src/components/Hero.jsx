@@ -9,8 +9,8 @@ const Hero = () => {
             <h1 className="w-[800px] text-7xl font-semibold text-zinc-100">{h}</h1>
             <p className="w-[600px] text-xl text-zinc-100/60">{p}</p>
             <div className="space-x-6">
-                <Button cta="Services Pricing" arrow="→" url="" />
-                <Button cta="Contact Me" url="" />
+                <Button cta="Services Pricing" arrow="→" url="/pricing" />
+                <Button cta="Contact Me" url="/contact" />
             </div>
         </section>
     )

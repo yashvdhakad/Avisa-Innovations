@@ -3,7 +3,7 @@ import Hero from "./components/Hero"
 
 function App() {
   return (
-    <section className="max-w-screen-xl h-screen m-auto">
+    <section className="max-w-screen-xl h-screen m-auto relative">
       <Navbar />
       <main className="h-screen">
         <Hero />
